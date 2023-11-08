@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Welcome"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="top"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    android:weightSum="2"
+  >
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="35dp"
+      android:text="Welcome to Prestige Bank "
+     android:layout_marginStart="5dp"
+       android:layout_marginEnd="5dp"
+       android:layout_marginTop="5dp"
+       android:layout_marginBottom="10dp"
+      android:textColor="@color/black"
+      android:textStyle="bold"
+      android:gravity="center"
+      android:textSize="28sp"/>
+   <View
+       android:layout_width="match_parent"
+       android:layout_height="2dp"
+       android:background="@color/black"
+       android:layout_marginStart="25dp"
+       android:layout_marginEnd="25dp"
+      android:backgroundTint="@color/black"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="350dp"
+   android:background="@mipmap/bank_welcome"/>
+   <Button
+       android:id="@+id/getStarted"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+      android:text="GET STARTED"
+       android:layout_margin="10dp"
+      android:shadowRadius="50"
+      android:shadowColor="@color/purple_200"
+      android:textStyle="bold"
+      android:layout_gravity="center"/>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+      android:orientation="vertical">
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="10dp"
+          android:layout_marginTop="20dp"
+          android:layout_marginEnd="10dp"
+          android:background="@drawable/simple_border"
+          android:fontFamily="@font/abhaya_libre"
+          android:text="Whats new !"
+          android:gravity="center"
+          android:textStyle="bold"
+          android:textColor="@color/black"
+          android:textSize="25sp" />
+      <ScrollView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:scrollbarStyle="insideInset">
+      <androidx.recyclerview.widget.RecyclerView
+          android:id="@+id/recycler"
+          android:layout_width="match_parent"
+          android:layout_height="300dp"
+         android:layout_marginTop="10dp"
+         android:layout_marginStart="5dp"
+         android:layout_marginEnd="5dp"/>
+      </ScrollView>
+
+   </LinearLayout>
+
+
+
+</LinearLayout>

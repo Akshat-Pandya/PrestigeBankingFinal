@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:background="@color/white"
+    android:gravity="center"
+    tools:context=".Help">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/simple_border"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        android:text="For 24X7 help and assistance call:\n65658989"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_margin="20dp"
+       />
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.732">
+
+        <View
+            android:layout_width="150dp"
+            android:layout_height="1dp"
+            android:background="#807E7E" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textColor="@color/gray"
+            android:text="OR"
+            android:textSize="20sp" />
+
+        <View
+            android:layout_width="150dp"
+            android:layout_height="1dp"
+            android:background="#807E7E" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/simple_border"
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_margin="20dp"
+        android:text="You can also reach out via email at:\nprestigeBank045@gmail.com"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_margin="5dp"
+    android:background="@drawable/simple_border"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/recycler_cardImage"
+        android:layout_width="250dp"
+        android:layout_height="130dp"
+        android:src="@mipmap/creditcard"/>
+    <TextView
+        android:id="@+id/recycler_cardName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MasterCard "
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/recycler_cardDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:textColor="@color/black"
+        android:text="Avail benefits upto 30% in shopping with master card with repeated vouchers and coupons."/>
+
+
+
+</LinearLayout>

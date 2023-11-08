@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">PrestigeBankingFinal</string>
+    <string name="loanpolicy">Eligibility Criteria:\n
+Minimum age requirement for borrowers: 18 years.\n
+Creditworthiness assessment: Requires a minimum credit score of 650 and a positive credit history.\n
+Employment and income verification: Applicants must provide proof of stable employment and a minimum annual income of ₹30,000.\n
+Loan Types:\n
+\n
+Personal loans, home loans, car loans, and education loans.\n
+Specific terms and conditions for each type of loan detailed in separate loan product brochures.\n
+Loan Amount:\n
+
+Minimum loan amount: ₹1,000.\n
+Maximum loan amount: ₹100,000.\n
+Loan-to-value (LTV) ratio for home loans: Up to 80% of the property value.\n
+Interest Rates:\n
+
+Fixed interest rates: 5.25% for personal loans, 3.75% for home loans.\n
+Variable interest rates: Based on the prime rate, subject to change.\n
+Loan Tenure:\n
+\n
+Maximum loan repayment period: 5 years for personal loans, 30 years for home loans.\n
+Minimum loan tenure: 12 months.\n
+Repayment Terms:\n
+\n
+Monthly repayment schedule is standard, but bi-monthly and quarterly options are available.\n
+Grace period: Up to 15 days for all loan types.</string>
+</resources>

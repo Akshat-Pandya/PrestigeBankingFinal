@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "677288782743",
+    "firebase_url": "https://prestigebankingfinal-default-rtdb.firebaseio.com",
+    "project_id": "prestigebankingfinal",
+    "storage_bucket": "prestigebankingfinal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:677288782743:android:49f6fd042799223f62f2d2",
+        "android_client_info": {
+          "package_name": "com.example.prestigebankingfinal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvnZPyvaorXS5BCd6wnUsvFj5dzmVgnts"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
