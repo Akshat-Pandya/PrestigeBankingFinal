@@ -1,17 +1,10 @@
-Prestige Millennium Bank Android Application
+**Prestige Millennium Bank **
 
 
-Table of Contents
-Introduction
-Features
-Installation
-Usage
-Contributing
-License
-Introduction
+Introduction : 
 The Prestige Millennium Bank Android Application is a mobile banking application designed to provide customers with a convenient and secure way to manage their bank accounts and perform various banking operations. This application is developed to streamline and simplify banking services, making it easier for customers to access their accounts, make transactions, and stay updated on their financial activities.
 
-Features
+Features:
 Account Management:
 
 View account balance, transaction history, and account details.
@@ -37,10 +30,8 @@ Notifications:
 Receive real-time alerts for account activities.
 Security:
 
-Multi-factor authentication for secure login.
-Biometric authentication support (fingerprint, face recognition).
-Secure data encryption and protection.
-Installation
+Multi-factor authentication for secure login. 
+Installation:
 To install the Prestige Millennium Bank Android Application on your device, follow these steps:
 
 Download the APK file from our official website or app store.
