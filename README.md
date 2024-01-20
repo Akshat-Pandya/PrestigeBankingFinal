@@ -1,6 +1,5 @@
+Banking Application
 **Prestige Millennium Bank **
-
-
 Introduction : 
 The Prestige Millennium Bank Android Application is a mobile banking application designed to provide customers with a convenient and secure way to manage their bank accounts and perform various banking operations. This application is developed to streamline and simplify banking services, making it easier for customers to access their accounts, make transactions, and stay updated on their financial activities.
 
